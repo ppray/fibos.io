@@ -15,9 +15,9 @@ static trans.send_inline(String account,
 
 调用参数:
 
-- account: String, [action](action.md) 发送者的帐号名称
-- name: String, [action](action.md) 名称
-- args: Object, [action](action.md) 附带的数据
+- account: String, 合约的名称
+- name: String, [action](action.md) 的名称
+- args: Object, [action](action.md) 的参数
 - authorization: Array, [action](action.md) 的权限
 
 **实例**
@@ -59,8 +59,8 @@ static trans.send_context_free_inline(String account,
 
 调用参数:
 
-- account: String, [action](action.md) 发送者的帐号名称
-- name: String, [action](action.md) 名称
+- account: String, 合约的名称
+- name: String, [action](action.md) 的名称
 - args: Object, [action](action.md) 附带的数据
 
 **实例**
